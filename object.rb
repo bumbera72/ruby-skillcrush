@@ -5,7 +5,7 @@ class Horse
     end
 
     def get_name
-      return @get_name
+      return @name
     end
 
     def set_owner=(owner_name)
