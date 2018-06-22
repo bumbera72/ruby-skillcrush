@@ -28,6 +28,10 @@ class Chinchilla
 		@name = chinchilla_name
 	end
 
+  def get_name
+    return @name
+  end
+
 	def set_owner=(owner_name)
 		@owner_name = owner_name
 	end
