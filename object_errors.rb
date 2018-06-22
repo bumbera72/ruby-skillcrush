@@ -45,7 +45,7 @@ end
 class Parrot
 
 	def set_name=(parrot_name)
-		@name = name
+		@name = parrot_name
 	end
 
 	def get_name
@@ -59,6 +59,10 @@ class Parrot
 	def get_owner
 		return @owner_name
 	end
+
+  def tweet
+    return "chirp chirp"
+  end
 
 end
 
