@@ -84,7 +84,7 @@ chinchilla_name = my_chinchilla.get_name
 
 puts "#{ferretname} says #{my_ferret.squeal},
 #{parrotname} says #{my_parrot.tweet},
-and #{chincillaname} says #{my_chincilla.squeek}."
+and #{chinchillaname} says #{my_chincilla.squeek}."
 
 puts my_ferret.inspect
 puts my_parrot.inspect
